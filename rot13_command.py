@@ -1,10 +1,8 @@
 #libraries
 import argparse
 from rot13_lib import crypt_word
-
-#two-way table initialisation
-alpha_lc = [chr(x) for x in range(97, 123)]
-alpha_uc = [chr(x) for x in range(65, 91)]
+from rot13_lib import alpha_uc
+from rot13_lib import alpha_lc
 
 #positive integer test
 def pos_int(x):
