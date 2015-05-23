@@ -8,7 +8,6 @@ alpha_lc = [chr(x) for x in range(97, 123)]
 alpha_uc = [chr(x) for x in range(65, 91)]
 
 #input&output
-
 def input_output(crypt, offset):
     crypt_string = input("Input string to be %sd: " % (crypt))
     new_crypt= ""
